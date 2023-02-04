@@ -9,8 +9,12 @@ h1 {
 }
 
 button {
+    padding: 10px 15px;
+    border-radius: 15px;
     background-color: aqua;
-    margin-bottom: 3em;
+    color: grey;
+    border-color: white;
+    font-size: 1em;
     font-family: 'Cabin', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Press Start 2P', cursive;
