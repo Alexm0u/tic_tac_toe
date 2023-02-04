@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/vecteezy_retro-style-80s-sci-fi-background-futuristic-with-laser-grid_6241363_85.jpg);
+    color: orange;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: aqua;
+    color: grey;
+    border-color: white;
+    font-size: 1em;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+    padding: 40px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tablero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30em;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15em;
+}
+.box{
+    height: 3em;
+    width: 3em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    border-right: 2px;
+}

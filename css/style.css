@@ -1,0 +1,23 @@
+h1 {
+    color: orange
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+button {
+    background-color: aqua;
+    margin-bottom: 3em;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+background-image: url(../img/background\ home.jpg);
+
+}
+.container{color: orange;}
