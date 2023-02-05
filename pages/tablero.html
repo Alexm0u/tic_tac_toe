@@ -6,50 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tablero</title>
     <link rel="stylesheet" href="../css/tablero.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Open+Sans:wght@400;500;600;700&family=Press+Start+2P&display=swap');
-      </style>
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Open+Sans:wght@400;500;600;700&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
 </head>
 <body>
     <div class="container">
+      <!-- Botón de reinicio -->
         <button id="restart-button">RESTART</button>
+        <!-- Panel de información de juego -->
+        <div id="panel">
+          <h3 class="piheight">INFO</h3>
+          <p class="piheight" id="nameP1">PLAYER 1</p>
+          <p class="piheight" id="nameP2">PLAYER 2</p>
+          <p class="piheight" id="turnOf">Your turn! =></p>
+      </div>
+        <!-- Tablero -->
         <div id="tablero">
-            <table class="center">
-                <tr>
-                  <td>
-                    <button type="button" class="celda" id="celda1"></button>
-                  </td>
-                  <td>
-                    <button type="button" class="celda" id="celda2"></button>
-                  </td>
-                  <td>
-                    <button type="button" class="celda" id="celda3"></button>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <button type="button" class="celda" id="celda4"></button>
-                  </td>
-                  <td>
-                    <button type="button" class="celda" id="celda5"></button>
-                  </td>
-                  <td>
-                    <button type="button" class="celda" id="celda6"></button>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <button type="button" class="celda" id="celda7"></button>
-                  </td>
-                  <td>
-                    <button type="button" class="celda" id="celda8"></button>
-                  </td>
-                  <td>
-                    <button type="button" class="celda" id="celda9"></button>
-                  </td>
-                </tr>
-              </table>
-        </div>
+          <div id="row1">
+              <div class="letter" id="r1-c1"></div>
+              <div class="letter" id="r1-c2"></div>
+              <div class="letter" id="r1-c3"></div>
+          </div>
+          <div id="row2">
+              <div class="letter" id="r2-c1"></div>
+              <div class="letter" id="r2-c2"></div>
+              <div class="letter" id="r2-c3"></div>
+          </div>
+          <div id="row3">
+              <div class="letter" id="r3-c1"></div>
+              <div class="letter" id="r3-c2"></div>
+              <div class="letter" id="r3-c3"></div>
+          </div>
+      </div>
     
     </div>
     

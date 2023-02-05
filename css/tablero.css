@@ -10,6 +10,7 @@ body {
     font-family: 'Cabin', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Press Start 2P', cursive;
+
 }
 
 button {
@@ -23,24 +24,49 @@ button {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Press Start 2P', cursive;
 }
-#restart-button{
+
+#restart-button {
     padding: 10px 15px;
     border-radius: 15px;
     background-color: aqua;
     color: grey;
     border-color: white;
     font-size: 1em;
+    margin-top: 5px;
     font-family: 'Cabin', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Press Start 2P', cursive;}
+    font-family: 'Press Start 2P', cursive;
+}
 
 .container {
-    padding: 40px;
+    width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+    margin: 0;
+}
+
+#panel {
+    background-color:rgb(255, 0, 212);
+    border: 1px solid;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 70%;
+    height: 20%;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    padding: 1em;
+}
+
+#tablero {
+
+    width: 24em;
+    height: 24em;
+    padding: 1em;
+    margin-bottom: 1em;
 }
 
 .letter {
@@ -48,25 +74,103 @@ button {
 
 }
 
-table {
-    max-width: 420px;
-    max-height: 420px;
-    width: 85vw;
-    height: 85vw;
-    border-spacing: 5px 6px;
-    margin-top: 4em;
+/* ROW 1( ARRIBA) */
+#row1 {
+    display: flex;
+    height: 33%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#r1-c1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 33%;
+    border-right: 3px solid rgb(255, 255, 255);
+}
+
+#r1-c2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 34%;
+}
+
+#r1-c3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 33%;
+    border-left: 3px solid rgb(255, 255, 255);
+}
+
+#row2 {
+    display: flex;
+    height: 34%;
+    border-top: 3px solid rgb(248, 246, 246);
+    border-bottom: 3px solid rgb(253, 251, 251);
+}
+
+#r2-c1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 33%;
+    border-right: 3px solid rgb(253, 251, 251);
+}
+
+#r2-c2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 34%;
 
 }
 
-td {
-    padding: 0;
+#r2-c3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     width: 33%;
+    border-left: 3px solid rgb(252, 249, 249);
+}
+
+/* ROW 3 ABAJO */
+
+#row3 {
+    display: flex;
     height: 33%;
 }
 
-.celda {
-    font-size: 3.4em;
-    font-size: 16vmin;
+#r3-c1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
-    width: 100%;
+    width: 33%;
+    border-right: 3px solid rgb(248, 245, 245);
+}
+
+#r3-c2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 33%;
+}
+
+#r3-c3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 33%;
+    border-left: 3px solid rgb(218, 216, 216);
 }
