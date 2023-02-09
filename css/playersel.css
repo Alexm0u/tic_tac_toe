@@ -18,7 +18,7 @@ button {
     font-family: 'Cabin', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Press Start 2P', cursive;
-    margin-bottom: 6px;
+    margin-bottom: 5em;
 }
 
 body {
@@ -33,4 +33,29 @@ background-image: url(../img/background\ home.jpg);
     font-family: 'Open Sans', sans-serif;
     font-family: 'Press Start 2P', cursive;
     
+}
+#backinbtn{
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: rgb(241, 144, 17);
+    color: rgb(250, 247, 247);
+    border-color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 10em;
+
+}
+#startbtn{
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: rgb(245, 4, 4);
+    color: rgb(250, 247, 247);
+    border-color: rgb(255, 255, 255);
+    font-size: em;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 5em;
 }
