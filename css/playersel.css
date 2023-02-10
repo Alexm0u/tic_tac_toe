@@ -27,7 +27,15 @@ background-image: url(../img/background\ home.jpg);
 }
 .container{color: orange;}
 
-.input-group{
+#player1{
+    font-size: 1em;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 1em;
+    
+}
+#player2{
     font-size: 1em;
     font-family: 'Cabin', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -44,7 +52,7 @@ background-image: url(../img/background\ home.jpg);
     font-family: 'Cabin', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Press Start 2P', cursive;
-    margin-bottom: 10em;
+    margin-bottom: 5em;
 
 }
 #startbtn{
