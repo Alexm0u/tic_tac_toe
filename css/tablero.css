@@ -174,3 +174,9 @@ button {
     width: 33%;
     border-left: 3px solid rgb(218, 216, 216);
 }
+
+.jugadores{
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    color: rgb(10, 179, 247);
+}
