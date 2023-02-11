@@ -1,4 +1,46 @@
+// Funcion al darle click al boton de Confirm (Datos PLAYER 1)
+FunctionSavePlayerOne = () => {
 
+    // Guardo el valor del input player 1
+    let buttonOne = document.getElementById("inputPlayerOne");
+    let saveName = buttonOne.value;
+    // Guardo el parrafo de arriba del input para posteriormente introducirle el nombre del Player 1.
+    let namePlayerOne = document.getElementById("namePlayerOne");
+    // Validacion de que todos los campos(input y radio(Human/CPU) esten rellenos)
+    if (saveName != "") {
+        // Guardo el valor del input 1 en sessionStorage
+        sessionStorage.setItem("nameOfPlayerOne", saveName);
+        // Introduzco en el parrafo el nombre del Player 1
+        namePlayerOne.innerHTML = ` Player 1 : ${saveName}`;
+        //Vacio el input player 1
+        buttonOne.value = "";
+    } else {
+        alert("Please, write your name")
+    }
+}
+FunctionSaveNameTwo = () => {
+    // Guardo el valor del input player 2
+    let buttonTwo = document.getElementById("inputPlayerTwo");
+    let saveNameTwo = buttonTwo.value;
+    // Guardo el parrafo de arriba del input para posteriormente introducirle el nombre del Player 2.
+    let namePlayerTwo = document.getElementById("namePlayerTwo");
+
+    // Validacion de que todos los campos(input y radio(Human/CPU) esten rellenos)
+    if ((radioHumanTwoValue == true || radioCpuTwoValue == true) && (saveNameTwo != "")) {
+        // Guardo el valor del input 2 en sessionStorage
+        sessionStorage.setItem("nameOfPlayerTwo", saveNameTwo);
+        // Guardo el valor del boton radioHuman2 en sessionStorage
+        sessionStorage.setItem("valueOfHuman2", radioHumanTwoValue);
+        // Guardo el valor del boton radioCpu2 en sessionStorage
+        sessionStorage.setItem("valueOfCpu2", radioCpuTwoValue);
+        // Introduzco en el parrafo el nombre del Player 2
+        namePlayerTwo.innerHTML = ` Player 2 : ${saveNameTwo}`;
+        //Vacio el input player 2
+        buttonTwo.value = "";
+    } else {
+        alert("Please, write your name and select if you are Human o CPU")
+    }
+}
 
 
 
