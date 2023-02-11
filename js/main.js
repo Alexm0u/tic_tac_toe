@@ -66,7 +66,7 @@ let fichaP1 = 3;
 let fichaP2 = 3;
 
 let miTablero = ["", "", "", "", "", "", "", "", ""];
-
+// Probaremos con un If Else y 8 combinaciones por cada ficha
 let combinacionGanadora = [
     [0, 1, 2],
     [3, 4, 5],
