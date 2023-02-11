@@ -35,11 +35,13 @@ background-image: url(../img/background\ home.jpg);
     margin-bottom: 1em;
     
 }
-#player2{
+.namePlayer{
     font-size: 1em;
     font-family: 'Cabin', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Press Start 2P', cursive;
+    margin-top: 1em;
+    margin-bottom: 1em;
     
 }
 #backinbtn{
@@ -55,7 +57,7 @@ background-image: url(../img/background\ home.jpg);
     margin-bottom: 5em;
 
 }
-#startbtn{
+#botonplayers{
     padding: 10px 15px;
     border-radius: 15px;
     background-color: rgb(245, 4, 4);
@@ -67,15 +69,3 @@ background-image: url(../img/background\ home.jpg);
     font-family: 'Press Start 2P', cursive;
     margin-top: 5em;
 }
-
-#readybtn{
-    padding: 10px 15px;
-    border-radius: 15px;
-    background-color: rgb(30, 6, 248);
-    color: rgb(250, 247, 247);
-    border-color: rgb(255, 255, 255);
-    font-size: 1em;
-    font-family: 'Cabin', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Press Start 2P', cursive;
-    margin-bottom: 5em;}

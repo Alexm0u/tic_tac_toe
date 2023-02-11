@@ -13,7 +13,6 @@ nameP1.innerHTML = `${datosSesion.player1}`;
 nameP2.innerHTML = `${datosSesion.player2}`;
 
 
-
 let tablero = Array.from(document.getElementsByClassName("celda"));
 
 let turno = true;
