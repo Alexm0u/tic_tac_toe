@@ -1,54 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tablero</title>
-    <link rel="stylesheet" href="../css/tablero.css">
+    <link rel="stylesheet" href="../css/tablero.css" />
     <!-- Google fonts link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Open+Sans:wght@400;500;600;700&family=Press+Start+2P&display=swap"
-        rel="stylesheet">
-</head>
-<body>
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Open+Sans:wght@400;500;600;700&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="container">
       <!-- Botones -->
-        <a href="./tablero.html"><button id="restart-button">RESTART</button></a>
-        <a href="../pages/playerselect.html"><button id="restart-button">Volver a selección de jugador</button></a>
+      <a href="./tablero.html"><button id="restart-button">RESTART</button></a>
+      <a href="../pages/playerselect.html"
+        ><button id="restart-button">Volver a selección de jugador</button></a
+      >
 
-        <!-- Panel de información de juego -->
-        <div id="panel">
-          
-          <div class="jugadores">Player 1 -> X</div>
-          <div id="player1"></div>
-          <div class="jugadores">Player 2 -> 0</div>
-          <div id="player2"></div>
+      <!-- Panel de información de juego -->
+      <div id="panel">
+        <div class="jugadores">Player 1 -> X</div>
+        <div id="player1"></div>
+        <div class="jugadores">Player 2 -> 0</div>
+        <div id="player2"></div>
       </div>
-        <!-- Tablero -->
-        <div id="tablero">
-          <div id="row1">
-              <div class="celda" id="c0"></div>
-              <div class="celda" id="c1"></div>
-              <div class="celda" id="c2"></div>
-          </div>
-          <div id="row2">
-              <div class="celda" id="c3"></div>
-              <div class="celda" id="c4"></div>
-              <div class="celda" id="c5"></div>
-          </div>
-          <div id="row3">
-              <div class="celda" id="c6"></div>
-              <div class="celda" id="c7"></div>
-              <div class="celda" id="c8"></div>
-          </div>
+      <!-- Tablero -->
+      <div id="tablero">
+        <div id="row1">
+          <div class="celda" id="c0"></div>
+          <div class="celda" id="c1"></div>
+          <div class="celda" id="c2"></div>
+        </div>
+        <div id="row2">
+          <div class="celda" id="c3"></div>
+          <div class="celda" id="c4"></div>
+          <div class="celda" id="c5"></div>
+        </div>
+        <div id="row3">
+          <div class="celda" id="c6"></div>
+          <div class="celda" id="c7"></div>
+          <div class="celda" id="c8"></div>
+        </div>
       </div>
-    
     </div>
-    
-<script src="../js/tablero.js"></script>
-<script src="../js/main.js"></script>
-</body>
+
+    <script src="../js/tablero.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
 </html>
