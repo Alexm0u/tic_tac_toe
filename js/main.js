@@ -52,7 +52,7 @@ const comprueboGanador = () => {
         (tablero[0].innerHTML == "X") && (tablero[4].innerHTML == "X") && (tablero[8].innerHTML == "X") ||
         (tablero[2].innerHTML == "X") && (tablero[4].innerHTML == "X") && (tablero[6].innerHTML == "X")) {
         setTimeout(() => { location.href = "looser.html"; }, 300);
-        // sessionStorage.setItem("nameWinner", name1);
+        sessionStorage.setItem("nameWinner", players.player1);
     } else if ((tablero[0].innerHTML == "O") && (tablero[1].innerHTML == "O") && (tablero[2].innerHTML == "O") ||
         (tablero[3].innerHTML == "O") && (tablero[4].innerHTML == "O") && (tablero[5].innerHTML == "O") ||
         (tablero[6].innerHTML == "O") && (tablero[7].innerHTML == "O") && (tablero[8].innerHTML == "O") ||
@@ -62,7 +62,7 @@ const comprueboGanador = () => {
         (tablero[0].innerHTML == "O") && (tablero[4].innerHTML == "O") && (tablero[8].innerHTML == "O") ||
         (tablero[2].innerHTML == "O") && (tablero[4].innerHTML == "O") && (tablero[6].innerHTML == "O")) {
         setTimeout(() => { location.href = "looser.html"; }, 300);;
-        // sessionStorage.setItem("nameWinner", name2)
+        sessionStorage.setItem("nameWinner", players.player2)
     }
 }
 tablero.map(
