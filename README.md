@@ -29,13 +29,7 @@ Si se realiza una combinación ganadora, accederemos automáticamente a la panta
 En ella, aparecerá el nombre del ganador. A su vez, si pulsamos el botón "NEW GAME", volveremos  a la pantalla de selección de jugadores, para comenzar si queremos una nueva partida.
 
 
-Para este proyecto, estas son las tecnologías que han sido utilizadas:
-
-![image](https://user-images.githubusercontent.com/121814511/219857042-cf3ba631-4630-4da3-a8fe-03b8d876efa8.png)
-![image](https://user-images.githubusercontent.com/121814511/219857052-93327e99-d8a3-4e49-97a4-2a79219f6bc8.png)
-![image](https://user-images.githubusercontent.com/121814511/219857075-187fdde4-9cee-4ceb-b896-2898e9cf173c.png)
-
-
+Para este proyecto, se han utilizado las tecnologías HTML5, CSS3 y JavaScript.
 
 Puedes ver este proyecto en ⇥ GitHub pages
 
