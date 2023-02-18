@@ -1,4 +1,4 @@
-Tic Tac Toe
+TIC TAC TOE
 
 Hola, soy Àlex Moya, estudiante Full Stack Developer en GeeksHubs Academy.
 
