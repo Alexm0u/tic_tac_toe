@@ -25,10 +25,10 @@ podremos utilizar el botón RESTART para comenzar una partida de nuevo. En caso 
 
 Si se realiza una combinación ganadora, accederemos automáticamente a la pantalla del ganador:
 
-
+![imagen](./img/Win.PNG)
 
 En ella, aparecerá el nombre del ganador. A su vez, si pulsamos el botón "NEW GAME", volveremos  a la pantalla de selección de jugadores, para comenzar si queremos una nueva partida.
-
+-----------------------------------------------------------------------------------------------------
 
 Para este proyecto, se han utilizado las tecnologías HTML5, CSS3 y JavaScript.
 
@@ -37,4 +37,4 @@ Puedes ver este proyecto en ⇥ GitHub pages
 Créditos
 Autor: Àlex Moya (Alexm0u)
 
-Última vez editado: 19/02/2023
+Última vez editado: 20/02/2023
