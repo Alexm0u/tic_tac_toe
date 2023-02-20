@@ -31,7 +31,7 @@ En ella, aparecerá el nombre del ganador. A su vez, si pulsamos el botón "NEW 
 
 Para este proyecto, se han utilizado las tecnologías HTML5, CSS3 y JavaScript.
 
-Puedes ver este proyecto en ⇥ GitHub pages
+Puedes ver este proyecto en ⇥ [GitHub pages](https://alexm0u.github.io/tic_tac_toe/)
 
 Autor: Àlex Moya (Alexm0u)
 
