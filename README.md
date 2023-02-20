@@ -28,7 +28,6 @@ Si se realiza una combinación ganadora, accederemos automáticamente a la panta
 ![imagen](./img/Win.PNG)
 
 En ella, aparecerá el nombre del ganador. A su vez, si pulsamos el botón "NEW GAME", volveremos  a la pantalla de selección de jugadores, para comenzar si queremos una nueva partida.
------------------------------------------------------------------------------------------------------
 
 Para este proyecto, se han utilizado las tecnologías HTML5, CSS3 y JavaScript.
 
