@@ -33,7 +33,6 @@ Para este proyecto, se han utilizado las tecnologías HTML5, CSS3 y JavaScript.
 
 Puedes ver este proyecto en ⇥ GitHub pages
 
-Créditos
 Autor: Àlex Moya (Alexm0u)
 
 Última vez editado: 20/02/2023
